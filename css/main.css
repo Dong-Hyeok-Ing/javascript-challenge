@@ -1,0 +1,40 @@
+:root {
+    --xlarge : 170px;
+    --large : 28px;
+    --medium : 18px;
+    --small : 16px;
+    --xsmall : 14px;
+}
+body{
+    font-family: "Noto Sans KR", sans-serif;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main-container .main-wrapper {
+    text-align: center;
+}
+
+.main-wrapper .date {
+    font-size: var(--large);
+    font-weight: 400;
+}
+
+.main-wrapper .time {
+    font-size: var(--xlarge);
+    font-weight: 400;
+    margin-top: -35px;
+}
+
+.main-wrapper span {
+    font-size: var(--large);
+    font-weight: 400;
+    margin-top: -35px;
+}
