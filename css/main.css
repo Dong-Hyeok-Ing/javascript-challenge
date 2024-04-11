@@ -6,9 +6,15 @@
     --xsmall : 14px;
 }
 body {
-    font-family: "Noto Sans KR", sans-serif;
-    width: 100%;
     margin: 0 auto;
+    width: 100%;;
+    font-family: "Noto Sans KR", sans-serif;
+    background-image: url("https://source.unsplash.com/user/hbin12212/likes");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    color:white;
 }
 
 .main-container {
@@ -68,13 +74,13 @@ body {
     max-width: 800px;
     padding: 0 10px;
     margin-bottom: 20px;
-    font-weight: 400; /* Changed font weight for better readability */
+    font-weight: 400;
     text-align: center;
-    color: #333; /* Changed text color for better contrast */
-    background-color: #f8f8f8; /* Added background color for better visibility */
-    border: 1px solid #ccc; /* Added border for clear separation */
-    border-radius: 8px; /* Added border radius for smoother appearance */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Added box shadow for depth effect */
+    color: #333;
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .bookmark-open {
@@ -85,7 +91,7 @@ body {
     position: absolute;
     top: 0;
     right: 0;
-    color: black;
+    color: white;
     background-color: rgba(0, 0, 0, 0.3);
     display: flex;
     justify-content: flex-end;
@@ -99,7 +105,7 @@ body {
     position: absolute;
     top: 0px;
     right: 0px;
-    color: black;
+    color: white;
     display: flex;
     justify-content: flex-end;
 }
@@ -122,3 +128,4 @@ body {
     padding: 10px 30px;
     color: white;
 }
+
